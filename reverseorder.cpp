@@ -18,12 +18,12 @@ void reverse_order(std::string date1, std::string date2){
 
     int j = 0;
     string date;
-    double westEl, westSt;
+    double eastSt, eastEl, westEl, westSt;
     double westElevation[365];
     string datesArr[365];
     bool start = false;
 
-    while(fin >> date >> westSt >> westEl) {
+    while(fin >> date >> eastSt >> eastEl >> westSt >> westEl) {
       fin.ignore(INT_MAX, '\n'); 
       
       if(date1 == date)

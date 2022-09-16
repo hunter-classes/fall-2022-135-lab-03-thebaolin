@@ -38,9 +38,8 @@ void reverse_order(std::string date1, std::string date2){
   }
   fin.close();
 
-  for(int = j - 1; i >= 0; i--) //reverse for loop
-    cout << array[i] << " " << westElevation[i] << endl;
+  for(int i = j - 1; i >= 0; i--) //reverse for loop
+    cout << datesArr[i] << " " << westElevation[i] << endl;
 
   fin.close();
-  return 0;
 }
